@@ -37,7 +37,7 @@
 # 👋**Hello Rails React** <a name="about-project"></a>
 
   **Hello Rails React** is a sample project that shows how to integrate Rails and React.
-  It is composed of two projects, one for the back end and another one to for the front end.
+  It is composed of two projects, one for the back end and another one for the front end.
   
   ### Ruby on Rails
   - RoR is used for the back end, and it is configured as an api, so it attends the requests of the front end.
@@ -45,7 +45,7 @@
 
   ### React
   - React is used for the front end, and it consumes the back end as an API.
-  - [`hello-rails-front-end`](https://github.com/luigirazum/hello-rails-front-end), is the repository that holds the React project.
+  - [`hello-react-front-end`](https://github.com/luigirazum/hello-react-front-end), is the repository that holds the React project.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -166,7 +166,7 @@ To get a local copy of this project up and running, follow these steps.
   {"data":{"id":6,"message":"Say Hello to Rails with React","created_at":"2024-03-12T09:17:22.649Z","updated_at":"2024-03-12T09:17:22.649Z"},"headers":{"Access-Control-Allow-Origin":"http://localhost:3001","Content-Type":"application/json; charset=utf-8"}}%
   ```
 
-  Go to [`hello-rails-front-end`](https://github.com/luigirazum/hello-rails-front-end), to get instructions about how to start the Front End.
+  Go to [`hello-react-front-end`](https://github.com/luigirazum/hello-react-front-end), to get instructions about how to start the Front End.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 <!-- AUTHORS -->
