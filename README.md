@@ -133,6 +133,39 @@ To get a local copy of this project up and running, follow these steps.
   ```
 - ### Open
   That's it, the API is running now.\
+  Running the following command in your terminal:
+  ```sh
+  curl --verbose --get 'http://127.0.0.1:3000/api/v1/greetings/random' --header 'Accept: "application/json"'
+  ```
+  Will throw something like the following:
+  ```sh
+  *   Trying 127.0.0.1:3000...
+  * Connected to 127.0.0.1 (127.0.0.1) port 3000 (#0)
+  > GET /api/v1/greetings/random HTTP/1.1
+  > Host: 127.0.0.1:3000
+  > User-Agent: curl/7.81.0
+  > Accept: "application/json"
+  >
+  * Mark bundle as not supporting multiuse
+  < HTTP/1.1 200 OK
+  < x-frame-options: SAMEORIGIN
+  < x-xss-protection: 0
+  < x-content-type-options: nosniff
+  < x-permitted-cross-domain-policies: none
+  < referrer-policy: strict-origin-when-cross-origin
+  < content-type: application/json; charset=utf-8
+  < etag: W/"ddb1f6216f69d27ea533d4d810381d26"
+  < cache-control: max-age=0, private, must-revalidate
+  < x-request-id: 3f02e9c6-3b14-4498-a7a1-8ab8833a8eb5
+  < x-runtime: 0.008468
+  < server-timing: start_processing.action_controller;dur=0.01, sql.active_record;dur=1.06, instantiation.active_record;dur=0.10, process_action.action_controller;dur=5.35
+  < vary: Origin
+  < Content-Length: 254
+  <
+  * Connection #0 to host 127.0.0.1 left intact
+  {"data":{"id":6,"message":"Say Hello to Rails with React","created_at":"2024-03-12T09:17:22.649Z","updated_at":"2024-03-12T09:17:22.649Z"},"headers":{"Access-Control-Allow-Origin":"http://localhost:3001","Content-Type":"application/json; charset=utf-8"}}%
+  ```
+
   Go to [`hello-rails-front-end`](https://github.com/luigirazum/hello-rails-front-end), to get instructions about how to start the Front End.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
